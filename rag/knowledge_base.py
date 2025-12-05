@@ -7,8 +7,8 @@ import os
 from typing import Optional
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter, Language
-from langchain.schema import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter, Language
+from langchain_core.documents import Document
 
 import config
 
